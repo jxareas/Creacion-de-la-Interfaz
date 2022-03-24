@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/margin_standard"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.MenuFragment">
+
+    <Button
+        android:id="@+id/button_clasificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clasificacion"
+        />
+
+    <Button
+        android:id="@+id/button_genero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/genero"
+        />
+
+    <Button
+        android:id="@+id/button_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/idioma"
+        />
+
+    <Button
+        android:id="@+id/button_nacionalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nacionalidad"
+        />
+
+    <Button
+        android:id="@+id/button_pelicula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pelicula"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.jonareas.peliculas.view.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_clasificacion"
+            app:destination="@id/clasificacionFragment" />
+        <action
+            android:id="@+id/action_genero"
+            app:destination="@id/generoFragment" />
+        <action
+            android:id="@+id/action_idioma"
+            app:destination="@id/idiomaFragment" />
+        <action
+            android:id="@+id/action_pelicula"
+            app:destination="@id/peliculaFragment" />
+        <action
+            android:id="@+id/action_nacionalidad"
+            app:destination="@id/nacionalidadFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/clasificacionFragment"
+        android:name="com.jonareas.peliculas.view.ClasificacionFragment"
+        android:label="fragment_clasificacion"
+        tools:layout="@layout/fragment_clasificacion" />
+    <fragment
+        android:id="@+id/generoFragment"
+        android:name="com.jonareas.peliculas.view.GeneroFragment"
+        android:label="fragment_genero"
+        tools:layout="@layout/fragment_genero" />
+    <fragment
+        android:id="@+id/idiomaFragment"
+        android:name="com.jonareas.peliculas.view.IdiomaFragment"
+        android:label="fragment_idioma"
+        tools:layout="@layout/fragment_idioma" />
+    <fragment
+        android:id="@+id/peliculaFragment"
+        android:name="com.jonareas.peliculas.view.PeliculaFragment"
+        android:label="fragment_pelicula"
+        tools:layout="@layout/fragment_pelicula" />
+    <fragment
+        android:id="@+id/nacionalidadFragment"
+        android:name="com.jonareas.peliculas.view.NacionalidadFragment"
+        android:label="fragment_nacionalidad"
+        tools:layout="@layout/fragment_nacionalidad" />
+</navigation>

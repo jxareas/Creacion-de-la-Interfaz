@@ -1,0 +1,22 @@
+package com.jonareas.peliculas.view
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import com.jonareas.peliculas.R
+import com.jonareas.peliculas.databinding.FragmentIdiomaBinding
+
+class IdiomaFragment : Fragment() {
+    private lateinit var binding : FragmentIdiomaBinding
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        binding = FragmentIdiomaBinding.inflate(inflater, container, false)
+        return binding.root
+    }
+
+}
