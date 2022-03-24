@@ -6,6 +6,7 @@
     tools:context=".view.PeliculaFragment">
 
     <TextView
+        style="@style/TextAppearance.Material3.TitleLarge"
         android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
